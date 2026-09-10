@@ -1,4 +1,4 @@
-package com.flm.patient.exceptions;
+package com.flm.patient.exception;
 
 public class PatientNotFoundException extends RuntimeException{
 
