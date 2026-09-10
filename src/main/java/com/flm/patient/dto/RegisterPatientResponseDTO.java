@@ -6,22 +6,24 @@ import com.flm.patient.model.Gender;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Builder;
 import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class RegisterPatientResponseDTO {
 
-private String patientId;
+	private String patientId;
 	
-	private String name;
+	private String patientName;
 	
 	private Gender gender;
 	
-	private String email;
+	private String patientEmail;
 	
-	private String phoneNumber;
+	private String patientPhoneNumber;
 	
 	private LocalDate dateOfBirth;
 	 
